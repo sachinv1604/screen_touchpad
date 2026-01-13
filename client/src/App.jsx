@@ -3,7 +3,7 @@ import { Smartphone, Monitor, Wifi, WifiOff } from 'lucide-react';
 import io from 'socket.io-client';
 
 // CHANGE THIS TO YOUR LAPTOP'S IP ADDRESS
-const SERVER_URL = 'http://10.143.66.177:3001';
+const SERVER_URL = 'http://10.218.153.177:3001';
 
 const App = () => {
   const [mode, setMode] = useState('select');
